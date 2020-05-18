@@ -1,0 +1,183 @@
+.container {
+  margin-top: 8em;
+  margin-bottom: 2em;
+}
+
+/* ! elements !*/
+nav {
+  height: 3.8em;
+  background-color: #f2f2f2;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  box-shadow: 0 4px 16px -6px grey;
+  z-index: 1;
+}
+
+.up_botton {
+  height: 5em;
+  width: 5em;
+  background-color: #59bd5a;
+  border: 1px solid #262626;
+  top: 85%;
+  left: 82%;
+  position: fixed;
+  cursor: pointer;
+  z-index: 1;
+}
+.up_botton:hover {
+  background-color: #46a047;
+}
+
+.login_botton {
+  background-color: transparent;
+  border: 2px solid #e0e0e0;
+  height: 40px;
+  width: 78px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_botton:hover {
+  border: 2px solid #4d4d4d;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background: #bdbdbd;
+}
+
+.short_line {
+  width: 50px;
+  height: 1px;
+  left: 135px;
+  background: #757575;
+}
+
+.store_box {
+  height: 366px;
+  width: 308px;
+}
+.store_box h5 {
+  padding-left: 1 em;
+}
+.store_box:hover {
+  background-color: #cccccc;
+}
+
+.bottom_nav {
+  padding-top: 5%;
+  width: 100%;
+  height: auto;
+  background-color: #262626;
+  color: white;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  box-sizing: content-box;
+}
+
+select {
+  position: relative;
+  font-family: Arial;
+  background-color: #99999999;
+  color: inherit;
+  border: 0;
+  height: 40px;
+  width: 227px;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  padding-left: 1em;
+  cursor: pointer;
+}
+
+.restaurant_head {
+  width: auto;
+  height: 22em;
+  background-image: url("/photo.png");
+  background-size: cover;
+  background-position: center;
+}
+.restaurant_card > h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.9em;
+  line-height: 42px;
+}
+
+.restaurant_card_time {
+  width: 94px;
+  height: 32px;
+  left: 294px;
+  background: #262626;
+  border-radius: 16px;
+}
+
+.restaurant_card {
+  display: flex;
+  margin-top: 3.8em;
+  height: 12em;
+  width: 18em;
+  background-color: white;
+  margin-left: 5%;
+  flex-wrap: wrap;
+}
+
+.snack_box {
+  height: 10.26em;
+  width: 29.9em;
+  border: 2px solid #cfcdcd;
+  border-radius:3px;
+  background-color: white;
+  margin-right: 3%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+.snack_box:hover{
+  background-color: #cccccc;
+}
+/* ! text !*/
+
+strong,
+p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.green_font {
+  color: #59bd5a;
+}
+
+.white_font {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.grey_font {
+  font-style: normal;
+  font-weight: normal;
+  color: #a19494;
+  font-size: 15px;
+}
+
+.no_wrap {
+  display: flex;
+  wrapflex-wrap: nowrap;
+}
+
+.snack_box_title{
+  line-height: 14px;
+  font-size: 16px;
+  font-weight: 550;
+}
+/*!postion!*/
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
